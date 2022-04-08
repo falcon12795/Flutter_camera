@@ -4,7 +4,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_camera/flutter_camera_falcon.dart';
+import 'package:flutter_camera_falcon/flutter_camera_falcon.dart';
+
 void main() {
   runApp(const MyApp());
 }

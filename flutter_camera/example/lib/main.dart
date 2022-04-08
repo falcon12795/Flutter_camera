@@ -4,8 +4,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_camera/flutter_camera.dart';
-
+import 'package:flutter_camera/flutter_camera_falcon.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -56,7 +55,7 @@ class _MyAppState extends State<MyApp> {
   void _getImageFromGallery() async {
     String? imageUri;
     try {
-      imageUri = await FlutterCamera.getImageFromGallery;
+      imageUri = await FlutterCameraFalcon.getImageFromGallery;
     } on PlatformException catch (platEx) {
       log("_getImageFromGallery/PlatformException  $platEx");
     } catch (ex) {
@@ -69,7 +68,7 @@ class _MyAppState extends State<MyApp> {
   void _getImageFromCamera() async {
     String? imageUri;
     try {
-      imageUri = await FlutterCamera.getImageFromCamera;
+      imageUri = await FlutterCameraFalcon.getImageFromCamera;
     } on PlatformException catch (platEx) {
       log("_takeImageFromCamera/PlatformException  $platEx");
     } catch (ex) {

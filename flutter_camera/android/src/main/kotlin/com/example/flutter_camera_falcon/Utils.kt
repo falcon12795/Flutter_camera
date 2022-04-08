@@ -1,4 +1,4 @@
-package com.example.flutter_camera
+package com.example.flutter_camera_falcon
 
 import android.content.ContentResolver
 import android.graphics.Bitmap

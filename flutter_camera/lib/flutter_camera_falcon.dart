@@ -3,7 +3,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class FlutterCamera {
+class FlutterCameraFalcon {
   static const MethodChannel _channel = MethodChannel('flutter_camera');
 
   static Future<String?> get platformVersion async {

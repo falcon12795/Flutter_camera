@@ -1,4 +1,4 @@
-package com.example.flutter_camera
+package com.example.flutter_camera_falcon
 
 import android.Manifest
 import android.app.Activity

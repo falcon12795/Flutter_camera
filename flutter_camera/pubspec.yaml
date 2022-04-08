@@ -1,6 +1,6 @@
-name: flutter_camera
+name: flutter_camera_falcon
 description: The design goal of JSON is to be as simple as possible and be universally usable. This has reduced the readability of the data, to some extent. In contrast, the design goal of YAML is to provide a good human-readable format and provide support for serializing arbitrary native data structures. This has increased the readability of the YAML files, but it has made the parsing and generation of files somewhat complex. We can see this clearly in the YAML official website where it shows the content in YAML format
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/falcon12795/Flutter_camera
 
 environment:
@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.flutter_camera
+        package: com.example.flutter_camera_falcon
         pluginClass: FlutterCameraPlugin
       ios:
         pluginClass: FlutterCameraPlugin

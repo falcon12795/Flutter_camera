@@ -1,7 +1,6 @@
 name: flutter_camera
 description: Create a plugin to use camera from the android native
 version: 0.0.1
-authors: Falcon <vuongduong7995@gmail.com>
 homepage: https://github.com/falcon12795/Flutter_camera
 
 environment:
